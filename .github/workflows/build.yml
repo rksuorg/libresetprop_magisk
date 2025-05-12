@@ -34,12 +34,12 @@ jobs:
       - name: Upload arm64 libs
         uses: actions/upload-artifact@v4
         with:
-          name: libresetprop
+          name: libresetprop-arm64
           path: /Users/runner/work/Magisk/Magisk/native/out/arm64-v8a/resetprop
 
 
       - name: Upload arm32 libs
         uses: actions/upload-artifact@v4
-        with: 
-          name: libresetprop
+        with:
+          name: libresetprop-arm
           path: /Users/runner/work/Magisk/Magisk/native/out/armeabi-v7a/resetprop
